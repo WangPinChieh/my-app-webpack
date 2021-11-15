@@ -1,7 +1,13 @@
 import React from "react";
 import "./App.styl";
+import Logo from "./logo.svg";
 function App() {
-  return <div className="header">Hello React!</div>;
+  return (
+    <>
+      <Logo />
+      <div className="header">Hello React!</div>
+    </>
+  );
 }
 
 export default App;
