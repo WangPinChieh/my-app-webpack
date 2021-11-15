@@ -4,7 +4,7 @@ import Logo from "./logo.svg";
 function App() {
   return (
     <>
-      <Logo />
+      <Logo className="App-logo" />
       <div className="header">Hello React!</div>
     </>
   );
