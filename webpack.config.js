@@ -16,11 +16,17 @@ module.exports = {
         use: "babel-loader",
         exclude: /(node_modules|bower_components)/,
       },
+      {
+        test: /\.styl$/,
+        use: ["style-loader", "css-loader", "stylus-loader"],
+      },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({
-    template: "./src/index.html",
-  })],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/index.html",
+    }),
+  ],
   devServer: {
     static: {
       directory: path.join(__dirname, "dist"),
