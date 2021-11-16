@@ -9,13 +9,15 @@ import {
   FormHelperText,
 } from "@chakra-ui/react";
 import Modal from "./Modal";
+import Basic from "./Basic";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
       {/* <Logo className="App-logo" /> */}
       <div className="header">Hello React!</div>
-      <Button
+      <Basic></Basic>
+      {/* <Button
         onClick={() => {
           setIsOpen(true);
         }}
@@ -34,23 +36,7 @@ function App() {
           <Input type="email" />
           <FormHelperText>We'll never share your email.</FormHelperText>
         </FormControl>
-      </Modal>
-      {/* <Box
-        as="form"
-        onSubmit={() => {
-          alert("submit");
-        }}
-      >
-        <Button
-          colorScheme="blue"
-          mr={3}
-          onClick={() => {
-            alert("click");
-          }}
-        >
-          Submit
-        </Button>
-      </Box> */}
+      </Modal> */}
     </>
   );
 }
