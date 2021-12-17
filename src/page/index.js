@@ -1,5 +1,5 @@
 import React from "react";
-import { MultiSelect } from "../components/select/multi-select";
+import { MultiSelect } from "@multi-select";
 
 export const MultiSelectPage = () => {
     return (
