@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.styl";
-import Logo from "./logo.svg";
+import {MultiSelectPage} from "./page";
 function App() {
   return (
     <>
-      <Logo className="App-logo" />
       <div className="header">Hello React!</div>
+      <MultiSelectPage />
     </>
   );
 }
