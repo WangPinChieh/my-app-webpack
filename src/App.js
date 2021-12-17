@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.styl";
 import Logo from "./logo.svg";
+import { Main } from "../page/main/index";
 function App() {
   return (
     <>
-      <Logo className="App-logo" />
       <div className="header">Hello React!</div>
+      <Main />
     </>
   );
 }
