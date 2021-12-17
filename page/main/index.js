@@ -1,5 +1,6 @@
 import React from 'react';
-import { SingleSelect } from '../../components/select/single-select';
+import { SingleSelect } from '@single-select';
+// import { SingleSelect } from '../../components/select/single-select';
 
 export const Main = (props) => {
     return (
